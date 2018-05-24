@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: ICND1 Lab Compilation
 ---
 ## ICND1

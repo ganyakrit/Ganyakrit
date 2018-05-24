@@ -1,7 +1,7 @@
 ---
 layout: post
 published: false
-title: ''
+title: ICND1 Lab Compilation
 ---
 ## ICND1
 
@@ -757,5 +757,4 @@ To Initial ASA with 3 Zone
 
 5. Config DMZ Static NAT 
 
-6. Config DMZ ACL 
-
+6. Config DMZ ACL

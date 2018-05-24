@@ -33,29 +33,22 @@ Initial SW Config
 this step to config how to connect the switch with CON, VTY (telnet , SSH) by config the user account and password for each connection and Enable Exec mode. Let start with connect PC to SW with console 
 
 to set hostname on Switch 
-
+```
 Switch> enable 
-
 Switch(config)# config terminal 
-
 Switch(config)# hostname SW
-
 Switch(config)# no ip source-route
-
 Switch(config)# no ip domain-lookup
-
+```
 1. Enable Privilege Exec 
 
 Enable has 2 type -- password and secret. You should use encryption for password
-
+```
 SW(config)# enable password password
-
 SW(config)# service password-encryption
-
 or to use secret instead (secret use MD5 encryption)
-
 SW(config)# enable secret  *secret*
-
+```
 Switch will use secret if both was set
 
 2. Line Console
